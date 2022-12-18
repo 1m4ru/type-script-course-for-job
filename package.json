@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  },
+  "name": "type-script-course-for-job",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch 'src/' --exec 'ts-node src/index.ts' -e ts "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1m4ru/type-script-course-for-job.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1m4ru/type-script-course-for-job/issues"
+  },
+  "homepage": "https://github.com/1m4ru/type-script-course-for-job#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4"
+  }
+}
